@@ -34,11 +34,13 @@ const Signin = () => {
             
             // Google Sign In button
             const googleSignIn = document.getElementById('googleSignIn');
-            
+           
+            /*
             googleSignIn.addEventListener('click', function() {
                 simulateGoogleSignIn();
             });
-            
+            */
+
             
             // Show notification
             function showNotification(message, type) {
@@ -80,6 +82,7 @@ const Signin = () => {
                 }, 5000);
             }
             
+            /*
             // Simulate sign in process
             function simulateSignIn() {
                 const signinButton = signinForm.querySelector('.signin-button');
@@ -124,6 +127,7 @@ const Signin = () => {
                     // In a real app, you would handle Google OAuth callback here
                 }, 2000);
             }
+                */
             
             // Add hover animations to advantage cards
             const advantageCards = document.querySelectorAll('.advantage-card');
